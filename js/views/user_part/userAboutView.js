@@ -1,0 +1,1 @@
+define([],function(){return{init:function(){window.app.views.UserAbout||(window.app.views.UserAbout=Backbone.View.extend({initialize:function(a){this.data=a.data},render:function(){return this.$el.html(this.template({data:this.data})),$(".container").hasClass("fullscreen-content")&&$(".container").removeClass("fullscreen-content"),this},events:{}}))}}});

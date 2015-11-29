@@ -1,0 +1,1 @@
+define([],function(){return{init:function(){window.app.views.NotFound||(window.app.views.NotFound=Backbone.View.extend({render:function(){return this.setElement(this.template()),$("#spinner").hide(),this}}))}}});

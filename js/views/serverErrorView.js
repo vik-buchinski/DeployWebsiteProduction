@@ -1,0 +1,1 @@
+define([],function(){return{init:function(){window.app.views.ServerError||(window.app.views.ServerError=Backbone.View.extend({render:function(){return this.setElement(this.template()),$("#spinner").hide(),this}}))}}});
