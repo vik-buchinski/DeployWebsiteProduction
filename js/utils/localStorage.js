@@ -1,1 +1,0 @@
-define([],function(){function a(){return window.localStorage}var b,c="SESSION_KEY",d={saveSession:function(d){d?(a().setItem(c,JSON.stringify(d)),b=d):(a().removeItem(c),b=null)},getSession:function(){return b||(b=JSON.parse(a().getItem(c))),b}};return d});

@@ -1,1 +1,0 @@
-define(["router","backbone"],function(a){return{initialize:function(){window.app={views:{},models:{},routers:{},utils:{},adapters:{}},document.title=$.i18n.t("default-title"),window.Vent=_.extend({},Backbone.Events),window.app.router=new a,Backbone.history.start()}}});

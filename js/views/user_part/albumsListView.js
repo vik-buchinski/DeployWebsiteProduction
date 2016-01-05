@@ -1,1 +1,0 @@
-define([],function(){return{init:function(){window.app.views.AlbumsList||(window.app.views.AlbumsList=Backbone.View.extend({initialize:function(a){this.data=a.data},render:function(){return this.setElement(this.template({albums:this.data})),$(this.$el).find("img.lazy").lazyload({threshold:200}),$(".container").addClass("fullscreen-content"),this},events:{}}))}}});
