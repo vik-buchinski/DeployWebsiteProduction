@@ -3,7 +3,6 @@
     BASE_API_URL: "http://designforlifeapi.azurewebsites.net/api/",
     // BASE_API_URL: "http://localhost:47503/api/",
 
-
     UNAUTHORIZED_REQUEST_CODE: 401,
     NOT_FOUND_REQUEST_CODE: 404,
     INTERNAL_ERROR_REQUEST_CODE: 503,
