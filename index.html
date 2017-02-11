@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
+        <link rel="prefetch" href="http://designforlifeapi.azurewebsites.net/api/about">
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -45,6 +46,6 @@
         <div id="spinner" class="spinner"></div>
         <!-- content dynamic load from template ./pages/*.html -->
         <div id="pages-container" class="page desktop"></div>
-        <script data-main="./user_part/app" src="lib/require.js"></script>
+        <script async data-main="./user_part/app.min" src="lib/require.min.js"></script>
     </body>
 </html>
